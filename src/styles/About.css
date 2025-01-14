@@ -1,0 +1,29 @@
+.Block {
+    padding: 100px 64px;
+}
+
+.about {
+    margin: auto;
+    font-size: 30px;
+    line-height: 1.2em;
+    font-weight: 500;
+    max-width: 740px;
+}
+
+.about-desc span {
+    color: #8b8b8b;
+}
+
+.aboutImg {
+    background: #1b1b1b;
+    display: flex;
+    width: fit-content;
+    border-radius: 20px;
+    padding: 20px;
+    margin-bottom: 32px;
+    box-shadow: 0 6px 12px rgba(27, 27, 27, .25);
+}
+
+.aboutImg img {
+    width: 28px;
+}

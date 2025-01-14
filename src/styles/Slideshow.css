@@ -1,0 +1,85 @@
+.Slideshow {
+    padding: 100px 0px;
+}
+
+.slideContainer {
+    position: relative;
+    overflow: hidden;
+}
+
+.slideContainer::before,
+.slideContainer::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 250px; 
+    z-index: 1;
+    pointer-events: none; 
+}
+
+.slideContainer::before {
+    left: 0;
+    background: linear-gradient(to right, white, transparent);
+}
+
+.slideContainer::after {
+    right: 0;
+    background: linear-gradient(to left, white, transparent);
+}
+
+.slideContainer.secContainer {
+    margin-top: 25px;
+}
+
+.slideContainer.secContainer .slideFlex {
+    animation: slideTwo 10s linear infinite;
+}
+
+.slideFlex {
+    display: flex;
+    animation: slide 10s linear infinite;
+    gap: 24px;
+    font-size: 70px;
+    font-weight: 550;
+}
+
+.slideFlex p {
+    background: linear-gradient(to right, rgb(16, 208, 127, 0.25), transparent);
+    border-left: 4px solid #10d07f;
+    padding: 0px 10px;
+    white-space: nowrap;
+}
+
+.slideFlex p:nth-child(1), 
+.slideFlex p:nth-child(4), 
+.slideFlex p:nth-child(7), 
+.slideFlex p:nth-child(10) {
+    background: linear-gradient(to right, rgb(145, 58, 255, 0.25), transparent);
+    border-left: 4px solid #913aff;
+}
+
+.slideFlex p:nth-child(3), 
+.slideFlex p:nth-child(6), 
+.slideFlex p:nth-child(9) {
+    background: linear-gradient(to right, rgb(15, 157, 237, 0.25), transparent);
+    border-left: 4px solid #0f9ded;
+}
+
+@keyframes slide {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(-50%);
+    }
+}
+
+@keyframes slideTwo {
+    from {
+        transform: translateX(-50%);
+    }
+    to {
+        transform: translateX(0%);
+    }
+}
