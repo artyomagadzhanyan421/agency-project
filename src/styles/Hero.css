@@ -25,15 +25,15 @@
 
 .heading {
     font-size: 75px;
-    font-weight: 500;
+    font-weight: 550;
     max-width: 800px;
-    line-height: 1.15em;
+    line-height: 1.2em;
     margin: 35px 0px;
 }
 
 .heading.block {
     font-size: 70px;
-    line-height: 1.065em;
+    line-height: 1.08em;
 }
 
 .heading span {
@@ -43,7 +43,7 @@
 }
 
 .blockContent .heading {
-    max-width: 560px;
+    max-width: 550px;
     margin: 0px 0px;
 }
 

@@ -6,19 +6,19 @@ const useServices = () => {
             id: 1,
             title: "Custom Website Development",
             description: "Web solutions designed to enhance user experience and meet specific business goals.",
-            image: "/services/s1.jpg",
+            image: "/services/s1.webp",
         },
         {
             id: 2,
             title: "Mobile App Development",
             description: "We create seamless, user-friendly mobile applications for iOS and Android.",
-            image: "/services/s2.jpg",
+            image: "/services/s2.webp",
         },
         {
             id: 3,
             title: "Support and Maintenance",
             description: "Regular updates, performance boosts, and fixes to keep your system running smoothly.",
-            image: "/services/s3.jpg",
+            image: "/services/s3.webp",
         },
     ]); 
     

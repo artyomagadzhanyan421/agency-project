@@ -1,28 +1,27 @@
 import React from "react";
-import "../styles/Benefits.css";
-import "boxicons";
 import useBenefits from "../hooks/useBenefits";
+
+// CSS
+import "../styles/Benefits.css";
+
+// Boxicons
+import "boxicons";
 
 function Benefits() {
   const { benefits } = useBenefits();
 
-  const spanStyle = {
+  let spanStyle = {
     border: "none",
     background: "none",
     color: "#8b8b8b",
     padding: 0,
   };
 
-  const blockContent = {
-    margin: "auto",
-    maxWidth: "1100px",
-  };
-
-  const weight = {
+  let weight = {
     fontWeight: 500,
   };
 
-  const benefitIconStyle = {
+  let benefitIconStyle = {
     display: "flex",
     padding: "5px",
     borderRadius: "10px",
@@ -45,7 +44,7 @@ function Benefits() {
 
   return (
     <div className="Block">
-      <div className="blockContent" style={blockContent}>
+      <div className="blockContent">
         <div className="headingFlex">
           <p className="heading block">
             <span style={spanStyle}>Benefits that</span> Drive Success

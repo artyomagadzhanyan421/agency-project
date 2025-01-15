@@ -1,3 +1,8 @@
+.blockContent {
+    margin: auto;
+    max-width: 1100px;
+}
+
 .services {
     background-color: white;
     border: 1px solid #eee;
@@ -37,11 +42,11 @@
     position: relative;
     overflow: hidden;
     border: 1px solid #eee;
-    border-radius: 18px;
+    border-radius: 15px;
 }
 
 .servicesGrid .service::before {
-    background: linear-gradient(to top, rgb(0, 0, 0, 0.7), transparent);
+    background: linear-gradient(45deg, #1b1b1b 15%, rgba(27, 27, 27, 0) 80%);
     content: "";
     position: absolute;
     width: 100%;
@@ -54,7 +59,7 @@
     position: absolute;
     bottom: 0%;
     left: 0%;
-    margin: 43px;
+    margin: 45px;
     z-index: 1;
 }
 

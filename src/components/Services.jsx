@@ -16,17 +16,10 @@ function Services() {
     padding: 0,
   };
 
-  let blockContent = {
-    margin: "auto",
-    maxWidth: "1100px"
-  }
-
   return (
     <div className="Block">
-      <div className="blockContent" style={blockContent}>
-        <p className="heading block">
-          Digital Excellence, <span style={spanStyle}>Delivered</span>
-        </p>
+      <div className="blockContent">
+        <p className="heading block">Digital Excellence, <span style={spanStyle}>Delivered</span></p>
         <div className="services">
           <div className="serviceFlex">
             <p>Our Services</p>
@@ -41,11 +34,7 @@ function Services() {
                   <p className="serviceDesc">{service.description}</p>
                   <div className="serviceLink">
                     <span>Get Started</span>
-                    <box-icon
-                      name="right-top-arrow-circle"
-                      color="white"
-                      size="21px"
-                    ></box-icon>
+                    <box-icon name="right-top-arrow-circle" color="white" size="21px"></box-icon>
                   </div>
                 </div>
               </a>
@@ -55,18 +44,11 @@ function Services() {
         <div className="blockFlex">
           <p>Need custom solution for your needs?</p>
           <div className="links">
-            <a
-              href="https://calendly.com/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="link"
-            >
+            <a href="https://calendly.com/" target="_blank" className="link">
               <box-icon name="phone" color="white" size="20px"></box-icon>
               <span>Book a Call</span>
             </a>
-            <a href="#" className="link">
-              Contact Us
-            </a>
+            <a href="#" className="link">Contact Us</a>
           </div>
         </div>
       </div>

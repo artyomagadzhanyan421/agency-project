@@ -1,0 +1,89 @@
+.headingDesc {
+    max-width: 300px;
+    font-weight: 500;
+    line-height: 1.35em;
+}
+
+.portfolioGrid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 25px;
+    grid-row-gap: 50px;
+    margin-top: 80px;
+}
+
+.portfolioGrid .project:nth-child(1) .projectImage {
+    background-color: #a0ff27;
+}
+
+.portfolioGrid .project:nth-child(2) .projectImage {
+    background-color: #f1c63c;
+}
+
+.portfolioGrid .project:nth-child(3) .projectImage {
+    background-color: #bc77e4;
+}
+
+.portfolioGrid .project:nth-child(4) .projectImage {
+    background-color: #1b1b1b;
+}
+
+.portfolioGrid .project:nth-child(5) .projectImage {
+    background-color: #0047ff;
+}
+
+.portfolioGrid .project:nth-child(6) .projectImage {
+    background-color: #007aff;
+}
+
+.projectImage {
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    padding: 50px 50px 0px 50px;
+    max-width: 1000px;
+    border-radius: 22px;
+    box-shadow: 0 6px 12px rgba(27, 27, 27, .1);
+}
+
+.portfolioBanner {
+    width: 100%;
+    border-radius: 22px 22px 0px 0px;
+    box-shadow: 0 6px 12px rgba(27, 27, 27, .1);
+}
+
+.portfolioBg {
+    position: absolute;
+    object-fit: cover;
+    max-width: initial;
+    opacity: 0;
+    left: 0%;
+    top: 0%;
+    width: 100%;
+    height: 100%;
+    transition: 0.5s;
+}
+
+.project:hover .portfolioBg {
+    opacity: 1;
+}
+
+.portfolioFlex {
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+    padding: 0px 25px;
+}
+
+.projectTitle {
+    font-size: 24px;
+    font-weight: 550;
+}
+
+.portfolioFlex div {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
