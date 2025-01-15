@@ -38,7 +38,7 @@ function Portfolio() {
                                 <p className='projectTitle'>{project.title}</p>
                                 <div>
                                     <span style={{ fontWeight: 500 }}>View Project</span>
-                                    <box-icon name='right-top-arrow-circle' size="21px"></box-icon>
+                                    <box-icon name='right-top-arrow-circle' size="22px"></box-icon>
                                 </div>
                             </div>
                         </Link>
