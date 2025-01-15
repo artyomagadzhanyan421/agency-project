@@ -51,21 +51,6 @@
     white-space: nowrap;
 }
 
-.slideFlex p:nth-child(1), 
-.slideFlex p:nth-child(4), 
-.slideFlex p:nth-child(7), 
-.slideFlex p:nth-child(10) {
-    background: linear-gradient(to right, rgb(145, 58, 255, 0.25), transparent);
-    border-left: 4px solid #913aff;
-}
-
-.slideFlex p:nth-child(3), 
-.slideFlex p:nth-child(6), 
-.slideFlex p:nth-child(9) {
-    background: linear-gradient(to right, rgb(15, 157, 237, 0.25), transparent);
-    border-left: 4px solid #0f9ded;
-}
-
 @keyframes slide {
     from {
         transform: translateX(0);
