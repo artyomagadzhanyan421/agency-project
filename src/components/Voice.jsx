@@ -22,7 +22,7 @@ function Voice() {
                         <span style={spanStyle}>Voices from</span> Our Clients
                     </p>
                     <div className="links">
-                        <a href="https://calendly.com/" target="_blank" className="link" rel="noopener noreferrer">
+                        <a href="#contact" className="link" rel="noopener noreferrer">
                             <box-icon name="phone" color="white" size="20px"></box-icon>
                             <span>Contact Us</span>
                         </a>

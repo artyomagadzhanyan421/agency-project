@@ -10,6 +10,14 @@
     gap: 8px;
 }
 
+.sub-head.contactSub {
+    color: white;
+    position: absolute;
+    bottom: 0%;
+    left: 0%;
+    margin: 40px;
+}
+
 .links.aboutSection {
     justify-content: initial;
     line-height: initial;
@@ -38,13 +46,13 @@
     font-size: 75px;
     font-weight: 550;
     max-width: 800px;
-    line-height: 1.2em;
+    line-height: 1.19em;
     margin: 35px 0px;
 }
 
 .heading.block {
     font-size: 70px;
-    line-height: 1.07em;
+    line-height: 1.06em;
 }
 
 .heading span {
@@ -70,11 +78,16 @@
     color: white;
     display: flex;
     align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    outline: none;
+    border: none;
     gap: 10px;
     box-shadow: 0 6px 12px rgba(27, 27, 27, .25);
     padding: 20px 35px;
     border-radius: 100px;
     font-weight: 500;
+    font-size: 16px;
     transition: 0.3s;
 }
 
@@ -86,6 +99,20 @@
 .links a:nth-child(2):hover,
 .links.aboutSection a:hover {
     background-color: #eee;
+}
+
+.contact .link {
+    margin-top: 30px;
+}
+
+.contact .link:hover {
+    padding: 20px 35px;
+}
+
+.contactImage .link {
+    background: white;
+    color: black;
+    width: fit-content;
 }
 
 .video {

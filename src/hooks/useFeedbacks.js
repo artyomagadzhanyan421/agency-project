@@ -5,7 +5,7 @@ const useFeedbacks = () => {
         {
             name: "Richard Anderson",
             message: [
-                "Looks Great 🔥",
+                "Looks very nice 🔥",
                 "You definitely nailed 💅🏻💅🏻 it with our website development. Chatting with your team was such a breeze!",
             ],
             response: "Glad you're happy with the results!",

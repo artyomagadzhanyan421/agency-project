@@ -65,7 +65,7 @@ function Pricing() {
                             <box-icon name="phone" color="white" size="20px"></box-icon>
                             <span>Book a Call</span>
                         </a>
-                        <a href="#" className="link">
+                        <a href="#contact" className="link">
                             Contact Us
                         </a>
                     </div>

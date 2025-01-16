@@ -48,7 +48,7 @@ function Services() {
               <box-icon name="phone" color="white" size="20px"></box-icon>
               <span>Book a Call</span>
             </a>
-            <a href="#" className="link">Contact Us</a>
+            <a href="#contact" className="link">Contact Us</a>
           </div>
         </div>
       </div>

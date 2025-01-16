@@ -1,0 +1,71 @@
+.contact {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 80px;
+    grid-gap: 24px;
+}
+
+.contact form {
+    background-color: #fbfbfb;
+    border: 1px solid #eee;
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    border-radius: 32px;
+}
+
+input,
+textarea {
+    outline: none;
+    resize: none;
+    background: #f4f4f4;
+    border: 1px solid #eee;
+    padding: 20px 24px;
+    border-radius: 16px;
+    font-size: 14.5px;
+    margin-top: 12px;
+    transition: 0.3s;
+}
+
+textarea {
+    height: 144px;
+}
+
+input:focus,
+textarea:focus {
+    border: 1px solid #323232;
+}
+
+.formHead {
+    font-size: 31px;
+    font-weight: 500;
+    line-height: 1.14em;
+    max-width: 400px;
+}
+
+.contactImage {
+    overflow: hidden;
+    position: relative;
+    border-radius: 32px;
+}
+
+.contactImage::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(135deg, #1b1b1b 15%, rgba(27, 27, 27, 0) 80%);
+}
+
+.contactImage img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.contactBlock {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    margin: 40px;
+}
