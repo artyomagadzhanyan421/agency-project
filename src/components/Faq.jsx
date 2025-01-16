@@ -25,7 +25,7 @@ function Faq() {
                                 style={{ cursor: "pointer", display: "flex", alignItems: "center", justifyContent: "space-between" }}
                             >
                                 <p>{faq.question}</p>
-                                <box-icon name={faq.isOpen ? 'minus-circle' : 'plus-circle'}></box-icon>
+                                <box-icon name={faq.isOpen ? 'minus-circle' : 'plus-circle'} size="24px"></box-icon>
                             </div>
                             <span style={{ display: faq.isOpen ? "flex" : "none" }}>{faq.answer}</span>
                         </div>

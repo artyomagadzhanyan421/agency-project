@@ -10,6 +10,7 @@ import Portfolio from '../components/Portfolio';
 import Pricing from '../components/Pricing';
 import Faq from '../components/Faq';
 import Voice from '../components/Voice';
+import Contact from '../components/Contact';
 
 function Home() {
   return (
@@ -23,6 +24,7 @@ function Home() {
       <Pricing />
       <Faq />
       <Voice />
+      <Contact />
     </div>
   )
 }
