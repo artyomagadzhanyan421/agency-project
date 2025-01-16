@@ -1,0 +1,40 @@
+.faqs {
+    columns: 2;
+    column-gap: 9px;
+    margin-top: 80px;
+}
+
+.faq {
+    cursor: pointer;
+    height: fit-content;
+    break-inside: avoid;
+    background-color: white;
+    border: 1px solid #f4f4f4;
+    padding: 35px;
+    border-radius: 24px;
+    margin-bottom: 9px;
+}
+
+.faq span {
+    color: #8b8b8b;
+    display: none;
+    padding-top: 32px;
+    font-size: 14px;
+    max-width: 450px;
+}
+
+.faq div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 25px;
+}
+
+.faq div p {
+    font-weight: 550;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-box-orient: vertical;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+}

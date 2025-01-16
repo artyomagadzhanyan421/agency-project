@@ -8,6 +8,8 @@ import Services from '../components/Services';
 import Benefits from '../components/Benefits';
 import Portfolio from '../components/Portfolio';
 import Pricing from '../components/Pricing';
+import Faq from '../components/Faq';
+import Voice from '../components/Voice';
 
 function Home() {
   return (
@@ -19,6 +21,8 @@ function Home() {
       <Benefits />
       <Portfolio />
       <Pricing />
+      <Faq />
+      <Voice />
     </div>
   )
 }
