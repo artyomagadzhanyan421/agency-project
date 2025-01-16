@@ -30,10 +30,7 @@ function Pricing() {
                                     <p style={pkg.style.title}>{pkg.name}</p>
                                     <span style={pkg.style.subtitle}>{pkg.subtitle}</span>
                                 </div>
-                                <p className="packageDesc" style={pkg.style.description}>
-                                    <span style={{ color: "#8b8b8b" }}>{pkg.description.split(" ")[0]}</span>{" "}
-                                    {pkg.description.slice(pkg.description.indexOf(" ") + 1)}
-                                </p>
+                                <p className="packageDesc" style={pkg.style.description}>{pkg.description} <span style={pkg.style.descriptionSpan}>{pkg.description2}</span></p>
                                 <div className="price" style={pkg.style.price}>
                                     <span>$</span>
                                     <p>{pkg.price.toLocaleString()}</p>

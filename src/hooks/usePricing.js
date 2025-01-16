@@ -5,7 +5,8 @@ const usePricing = () => {
         {
             name: "Starter",
             subtitle: "Small Projects",
-            description: "Ideal for Small Businesses & Startups",
+            description: "Ideal for",
+            description2: "Small Businesses & Startups",
             price: 3000,
             duration: "/mo",
             features: [
@@ -19,6 +20,7 @@ const usePricing = () => {
                 title: {},
                 subtitle: {},
                 description: { color: "#8b8b8b" },
+                descriptionSpan: { color: "black" },
                 price: {},
                 buttonIconColor: "white",
             },
@@ -26,7 +28,8 @@ const usePricing = () => {
         {
             name: "Professional",
             subtitle: "Big Projects",
-            description: "Great for Scaling Businesses & Ventures",
+            description: "Great for",
+            description2: "Scaling Businesses & Ventures",
             price: 3000,
             duration: "/mo",
             features: [
@@ -39,7 +42,8 @@ const usePricing = () => {
                 main2: { background: "#323232" },
                 title: { color: "white" },
                 subtitle: { color: "#fbfbfb99", background: "#fbfbfb1a" },
-                description: { color: "white" },
+                description: { color: "#8b8b8b" },
+                descriptionSpan: { color: "white" },
                 price: { color: "white" },
                 buttonIconColor: "black",
             },
