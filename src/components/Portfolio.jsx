@@ -19,7 +19,7 @@ function Portfolio() {
     };
 
     return (
-        <div className='Block'>
+        <div className='Block' id='works'>
             <div className="blockContent">
                 <div className="headingFlex">
                     <p className="heading block">
@@ -29,7 +29,7 @@ function Portfolio() {
                 </div>
                 <div className="portfolioGrid">
                     {projects.map(project => (
-                        <Link to="/" className="project" key={project.id}>
+                        <Link to="/project" className="project" key={project.id}>
                             <div className="projectImage">
                                 <img src={project.banner} className='portfolioBanner' alt={`${project.title} banner`} />
                                 <img src={project.background} className='portfolioBg' alt={`${project.title} background`} />

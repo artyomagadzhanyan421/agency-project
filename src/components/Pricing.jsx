@@ -11,7 +11,7 @@ function Pricing() {
     const pricingData = usePricing();
 
     return (
-        <div className="Block" style={{ background: "#f4f4f4" }}>
+        <div className="Block" id="pricing" style={{ background: "#f4f4f4" }}>
             <div className="blockContent">
                 <div className="headingFlex">
                     <p className="heading block">
