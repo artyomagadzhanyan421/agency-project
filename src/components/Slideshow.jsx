@@ -6,12 +6,12 @@ import "../styles/Slideshow.css";
 function Slideshow() {
     let purple = {
         background: "linear-gradient(to right, rgb(145, 58, 255, 0.25), transparent)",
-        borderLeft: "4px solid #913aff"  
+        borderLeft: "4px solid #913aff"
     }
 
     let blue = {
         background: "linear-gradient(to right, rgb(15, 157, 237, 0.25), transparent)",
-        borderLeft: "4px solid #0f9ded" 
+        borderLeft: "4px solid #0f9ded"
     }
 
     return (

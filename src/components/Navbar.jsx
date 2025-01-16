@@ -7,9 +7,9 @@ import "../styles/Navbar.css";
 function Navbar() {
   return (
     <nav>
-        <Link to="/" style={{display: "flex"}}>
-            <img src="/logo.svg" alt="logo" style={{width: 100}} />
-        </Link>
+      <Link to="/" style={{ display: "flex" }}>
+        <img src="/logo.svg" alt="logo" style={{ width: 100 }} />
+      </Link>
     </nav>
   )
 }

@@ -20,8 +20,8 @@ const useServices = () => {
             description: "Regular updates, performance boosts, and fixes to keep your system running smoothly.",
             image: "/services/s3.webp",
         },
-    ]); 
-    
+    ]);
+
     return { services, setServices };
 };
 

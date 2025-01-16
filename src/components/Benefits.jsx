@@ -56,7 +56,7 @@ function Benefits() {
             </a>
           </div>
         </div>
-        
+
         <div className="benefits">
           <div className="benefit">
             <div className="benefitTitle">

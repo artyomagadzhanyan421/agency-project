@@ -6,7 +6,7 @@ const useBenefits = () => {
             id: 1,
             title: "Senior Developers",
             icon: "check",
-            type: "positive", 
+            type: "positive",
         },
         {
             id: 2,
@@ -36,7 +36,7 @@ const useBenefits = () => {
             id: 6,
             title: "Junior Developers",
             icon: "x",
-            type: "negative", 
+            type: "negative",
         },
         {
             id: 7,

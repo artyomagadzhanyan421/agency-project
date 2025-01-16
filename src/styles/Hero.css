@@ -2,7 +2,8 @@
     padding: 100px 64px;
 }
 
-.sub-head, .links {
+.sub-head,
+.links {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -14,6 +15,16 @@
     line-height: initial;
     margin-top: 40px;
     font-size: 16px;
+}
+
+.links.priceLinks {
+    justify-content: initial;
+    margin-top: 12.5px;
+}
+
+.pricing .package:nth-child(2) .links.priceLinks a {
+    background-color: white;
+    color: black;
 }
 
 .dot {
@@ -43,11 +54,11 @@
 }
 
 .blockContent .heading {
-    max-width: 550px;
+    max-width: 500px;
     margin: 0px 0px;
 }
 
-.links a:nth-child(2), 
+.links a:nth-child(2),
 .links.aboutSection a {
     color: black;
     background-color: #f4f4f4;
@@ -72,7 +83,7 @@
     padding: 20px 45px;
 }
 
-.links a:nth-child(2):hover, 
+.links a:nth-child(2):hover,
 .links.aboutSection a:hover {
     background-color: #eee;
 }

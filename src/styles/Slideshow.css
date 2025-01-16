@@ -1,5 +1,5 @@
 .Slideshow {
-    padding: 100px 0px;
+    padding: 150px 0px;
 }
 
 .slideContainer {
@@ -13,9 +13,9 @@
     position: absolute;
     top: 0;
     bottom: 0;
-    width: 250px; 
+    width: 250px;
     z-index: 1;
-    pointer-events: none; 
+    pointer-events: none;
 }
 
 .slideContainer::before {
@@ -55,6 +55,7 @@
     from {
         transform: translateX(0);
     }
+
     to {
         transform: translateX(-50%);
     }
@@ -64,6 +65,7 @@
     from {
         transform: translateX(-50%);
     }
+
     to {
         transform: translateX(0%);
     }

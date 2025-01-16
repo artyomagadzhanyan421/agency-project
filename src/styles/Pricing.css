@@ -1,0 +1,91 @@
+.pricing {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 24px;
+    margin-top: 80px;
+}
+
+.package {
+    background: #fbfbfb;
+    border: 1px solid #eee;
+    padding: 12px;
+    border-radius: 32px;
+}
+
+.pricing .package:nth-child(2),
+.pricing .package:nth-child(2) .packageMain {
+    border: none;
+}
+
+.packageMain {
+    background: white;
+    border: 1px solid #eee;
+    padding: 28px 28px 32px 28px;
+    border-radius: 32px;
+}
+
+.packageTitle {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.packageTitle p {
+    font-size: 24px;
+    font-weight: 550;
+}
+
+.packageTitle span {
+    background-color: rgba(16, 208, 127, .1);
+    color: #0a955a;
+    font-size: 14px;
+    font-weight: 550;
+    padding: 10px 14px;
+    border-radius: 100px;
+}
+
+.packageDesc {
+    margin-top: 25px;
+    max-width: 344px;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 1.2em;
+}
+
+.price {
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+    font-size: 32px;
+    font-weight: 550;
+}
+
+.price span {
+    font-size: 16px;
+}
+
+.priceList {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 30px 30px;
+}
+
+.listDot {
+    background: #8b8b8b;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+}
+
+.priceList ul li {
+    color: #8b8b8b;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.priceList ul li:not(:nth-child(1)) {
+    margin-top: 8px;
+}

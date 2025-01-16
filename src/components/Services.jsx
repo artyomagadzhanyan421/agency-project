@@ -7,7 +7,7 @@ import "../styles/Services.css";
 import useServices from "../hooks/useServices";
 
 function Services() {
-  const { services } = useServices(); 
+  const { services } = useServices();
 
   let spanStyle = {
     border: "none",
@@ -17,7 +17,7 @@ function Services() {
   };
 
   return (
-    <div className="Block">
+    <div className="Block" id='services'>
       <div className="blockContent">
         <p className="heading block">Digital Excellence, <span style={spanStyle}>Delivered</span></p>
         <div className="services">
