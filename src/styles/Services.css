@@ -171,6 +171,7 @@
 }
 
 @media(max-width: 460px) {
+
     .blockFlex,
     .services {
         border-radius: 15px;
@@ -188,7 +189,8 @@
         width: fit-content;
     }
 
-    .services, .blockFlex {
+    .services,
+    .blockFlex {
         padding: 35px 25px;
     }
 }
