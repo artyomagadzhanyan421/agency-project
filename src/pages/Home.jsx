@@ -1,6 +1,7 @@
 import React from 'react';
 
 // Components 
+import Menu from '../components/Menu';
 import Hero from '../components/Hero';
 import About from '../components/About';
 import Slideshow from '../components/Slideshow';
@@ -15,6 +16,7 @@ import Contact from '../components/Contact';
 function Home() {
   return (
     <div>
+      <Menu />
       <Hero />
       <About />
       <Slideshow />

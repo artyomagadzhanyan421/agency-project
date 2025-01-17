@@ -8,7 +8,7 @@ import "../styles/Hero.css";
 
 function Hero() {
     return (
-        <div className='Hero'>
+        <div className='Hero' id='home'>
             <div className="sub-head">
                 <div className="dot"></div>
                 <p style={{ fontWeight: "550" }}>Digital Development Agency</p>
