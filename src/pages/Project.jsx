@@ -2,7 +2,9 @@ import React from 'react'
 
 function Project() {
   return (
-    <div>Project</div>
+    <div className='blockContent'>
+      Project
+    </div>
   )
 }
 
