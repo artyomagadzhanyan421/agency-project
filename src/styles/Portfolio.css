@@ -87,3 +87,25 @@
     align-items: center;
     gap: 10px;
 }
+
+@media(max-width: 1000px) {
+    .headingDesc {
+        margin-top: 25px;
+    }
+}
+
+@media(max-width: 960px) {
+    .portfolioGrid {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media(max-width: 460px) {
+    .portfolioFlex div {
+        display: none;
+    }
+
+    .projectImage {
+        border-radius: 15px;
+    }
+}

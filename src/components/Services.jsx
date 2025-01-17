@@ -19,7 +19,7 @@ function Services() {
   return (
     <div className="Block" id='services'>
       <div className="blockContent">
-        <p className="heading block">Digital Excellence, <span style={spanStyle}>Delivered</span></p>
+        <p className="heading block">Modern Excellence, <span style={spanStyle}>Delivered</span></p>
         <div className="services">
           <div className="serviceFlex">
             <p>Our Services</p>

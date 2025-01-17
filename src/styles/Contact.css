@@ -69,3 +69,41 @@ textarea:focus {
     left: 0%;
     margin: 40px;
 }
+
+@media(max-width: 1050px) {
+    .contact {
+        grid-template-columns: 1fr;
+    }
+
+    .contactImage {
+        height: 500px;
+    }
+}
+
+@media(max-width: 500px) {
+    .contact form {
+        padding: 40px 35px;
+    }
+
+    .contactBlock {
+        margin: 40px 35px;
+    }
+
+    .formHead {
+        font-size: 27px;
+    }
+}
+
+@media(max-width: 460px) {
+    .contact form {
+        padding: 35px 25px;
+    }
+
+    .contactBlock {
+        margin: 35px 25px;
+    }
+
+    .formHead {
+        font-size: 25px;
+    }
+}

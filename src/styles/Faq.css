@@ -38,3 +38,19 @@
     display: -webkit-box;
     -webkit-line-clamp: 2;
 }
+
+@media(max-width: 800px) {
+    .faqs {
+        columns: 1;
+    }
+}
+
+@media(max-width: 600px) {
+    .faq {
+        padding: 30px;
+    }
+
+    .faq span {
+        padding-top: 25px;
+    }
+}

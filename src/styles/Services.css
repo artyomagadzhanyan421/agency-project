@@ -119,4 +119,69 @@
 .blockFlex p {
     font-size: 23px;
     font-weight: 500;
+    line-height: 1.3em;
+}
+
+@media(max-width: 1080px) {
+    .blockFlex {
+        flex-direction: column;
+        align-items: initial;
+    }
+}
+
+@media(max-width: 1000px) {
+    .servicesGrid {
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(3, 400px);
+    }
+
+    .serviceText {
+        margin: 38px;
+    }
+
+    .serviceDesc {
+        margin: 12.5px 0px;
+    }
+
+    .servicesGrid .service:nth-child(3) {
+        grid-column: initial;
+    }
+}
+
+@media(max-width: 650px) {
+    .serviceFlex p {
+        font-size: 27px;
+    }
+}
+
+@media(max-width: 570px) {
+    .serviceText {
+        margin: 33px;
+    }
+}
+
+@media(max-width: 500px) {
+    .blockFlex {
+        padding: 35px;
+    }
+
+    .services {
+        padding: 40px 35px;
+    }
+}
+
+@media(max-width: 450px) {
+    .serviceFlex {
+        flex-direction: column;
+        align-items: initial;
+        gap: 10px;
+    }
+
+    .serviceFlex span {
+        width: fit-content;
+    }
+
+    .services {
+        padding: 35px 25px;
+    }
 }

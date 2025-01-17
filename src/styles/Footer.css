@@ -1,5 +1,5 @@
 .homeBottom {
-    padding-bottom: 100px;
+    padding: 0px 64px 100px 64px;
 }
 
 footer {
@@ -52,4 +52,53 @@ footer div ul li a:hover {
     color: #8b8b8b;
     font-size: 14.5px;
     font-weight: 400;
+}
+
+@media(max-width: 950px) {
+    .footerOne ul {
+        top: initial;
+        left: initial;
+        transform: initial;
+        position: inherit;
+        flex-direction: column;
+    }
+
+    .footerOne {
+        flex-direction: column;
+        align-items: initial;
+        gap: 35px;
+    }
+
+    .footerOne ul {
+        gap: 9px;
+    }
+
+    .footerOne span {
+        margin-left: initial;
+    }
+}
+
+@media(max-width: 790px) {
+    .homeBottom {
+        padding: 0px 40px 100px 40px;
+    }
+}
+
+@media(max-width: 570px) {
+    .homeBottom {
+        padding: 0px 30px 100px 30px;
+    }
+}
+
+@media(max-width: 500px) {
+    footer {
+        padding: 50px 35px;
+    }
+}
+
+@media(max-width: 460px) {
+    footer {
+        padding: 45px 25px;
+        border-radius: 15px;
+    }
 }

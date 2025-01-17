@@ -33,7 +33,7 @@ const usePricing = () => {
             price: 3000,
             duration: "/mo",
             features: [
-                ["Advanced Development", "Full Feature Set", "24/7 Priority Support"],
+                ["Pro Development", "Full Feature Set", "24/7 Priority Support"],
                 ["Daily Consulting Call", "Updates Every 2 Days", "128 Design Hours"],
             ],
             link: "https://www.lemonsqueezy.com/",

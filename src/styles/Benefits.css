@@ -102,3 +102,77 @@
         transform: translateY(0%);
     }
 }
+
+@media(max-width: 1000px) {
+    .headingFlex {
+        flex-direction: column;
+        align-items: initial;
+    }
+
+    .benefits {
+        grid-template-columns: 1fr;
+        gap: 50px;
+    }
+
+    .benefitTitle {
+        margin-bottom: 20px;
+    }
+
+    .benefitSlides .benefitFlexImages:nth-child(4) {
+        display: none;
+    }
+
+    .benefitSlides {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media(max-width: 650px) {
+    .benefitSlides .benefitFlexImages:nth-child(3) {
+        display: none;
+    }
+
+    .benefitSlides {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media(max-width: 500px) {
+    .benefitSlides .benefitFlexImages:nth-child(2) {
+        display: none;
+    }
+
+    .benefitSlides {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .benefitSlides {
+        padding: 0px 35px;
+    }
+
+    .benefits {
+        padding: 40px 35px;
+    }
+
+    .benefitRow span {
+        font-size: 14.5px;
+    }
+}
+
+@media(max-width: 460px) {
+
+    .benefits,
+    .benefitSlides {
+        border-radius: 15px;
+    }
+}
+
+@media(max-width: 450px) {
+    .benefits {
+        padding: 35px 25px;
+    }
+
+    .benefitSlides {
+        padding: 0px 25px;
+    }
+}

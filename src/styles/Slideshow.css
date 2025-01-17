@@ -70,3 +70,21 @@
         transform: translateX(0%);
     }
 }
+
+@media(max-width: 860px) {
+    .slideFlex {
+        font-size: 60px;
+    }
+}
+
+@media(max-width: 500px) {
+
+    .slideContainer::before,
+    .slideContainer::after {
+        width: 150px;
+    }
+
+    .slideFlex {
+        font-size: 45px;
+    }
+}

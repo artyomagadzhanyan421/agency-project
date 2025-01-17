@@ -25,7 +25,7 @@
     margin-left: auto;
 }
 
-.client span, 
+.client span,
 .webify span {
     color: #a1a1a1;
     display: flex;
@@ -35,7 +35,7 @@
     margin: 0px 15px 15px 15px;
 }
 
-.client p, 
+.client p,
 .webify p {
     color: white;
     background-color: black;
@@ -55,11 +55,37 @@
 .clientName {
     display: flex;
     align-items: center;
-    gap: 16px;
+    gap: 12.5px;
     font-weight: 500;
+}
+
+.clientName p {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-box-orient: vertical;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
 }
 
 .clientName img {
     border-radius: 50%;
     width: 40px;
+}
+
+@media(max-width: 1020px) {
+    .voices {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media(max-width: 500px) {
+    .voice {
+        padding: 40px 35px;
+    }
+}
+
+@media(max-width: 460px) {
+    .voice {
+        padding: 35px 25px;
+    }
 }

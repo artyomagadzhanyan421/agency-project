@@ -23,3 +23,22 @@
 .aboutImg img {
     width: 28px;
 }
+
+@media(max-width: 860px) {
+    .about-desc {
+        font-size: 25px;
+        line-height: 1.3em;
+    }
+}
+
+@media(max-width: 790px) {
+    .Block {
+        padding: 150px 40px;
+    }
+}
+
+@media(max-width: 570px) {
+    .Block {
+        padding: 150px 30px;
+    }
+}

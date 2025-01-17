@@ -59,3 +59,21 @@ header ul li a:hover span {
     opacity: 1;
     transform: translate(-50%, -250%);
 }
+
+@media(max-width: 400px) {
+    header {
+        border-radius: initial;
+        padding: initial;
+        transform: initial;
+        left: initial;
+        top: initial;
+        bottom: 0%;
+        width: 100%;
+    }
+
+    header ul {
+        border-radius: initial;
+        border: initial;
+        justify-content: center;
+    }
+}
