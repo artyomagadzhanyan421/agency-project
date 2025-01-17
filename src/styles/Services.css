@@ -182,7 +182,7 @@
     .serviceFlex {
         flex-direction: column;
         align-items: initial;
-        gap: 10px;
+        gap: 6px;
     }
 
     .serviceFlex span {
