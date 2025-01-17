@@ -45,7 +45,7 @@
 }
 
 .slideFlex p {
-    background: linear-gradient(to right, rgb(16, 208, 127, 0.25), transparent);
+    background: linear-gradient(to right, rgb(16, 208, 127, 0.40), transparent);
     border-left: 4px solid #10d07f;
     padding: 0px 10px;
     white-space: nowrap;
