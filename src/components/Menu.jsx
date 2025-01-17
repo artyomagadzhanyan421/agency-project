@@ -36,7 +36,7 @@ function Menu() {
                 <li>
                     <a href="#home">
                         <span>Home</span>
-                        <box-icon name='grid-alt'></box-icon>
+                        <box-icon name='home-alt'></box-icon>
                     </a>
                 </li>
                 <li>

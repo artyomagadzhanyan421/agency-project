@@ -32,6 +32,7 @@
 
 .faq div p {
     font-weight: 550;
+    line-height: 1.4em;
     overflow: hidden;
     text-overflow: ellipsis;
     -webkit-box-orient: vertical;

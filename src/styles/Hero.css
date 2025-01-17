@@ -187,11 +187,11 @@
 @media(max-width: 570px) {
     .links {
         flex-direction: column;
+        align-items: initial;
     }
 
-    .links .link {
-        box-shadow: initial;
-        width: 100%;
+    .headingFlex .links .link {
+        width: fit-content;
     }
 
     .Hero {
@@ -208,7 +208,6 @@
 
     .blockFlex .link {
         width: 100%;
-        box-shadow: initial;
     }
 }
 
