@@ -12,6 +12,7 @@ import Pricing from '../components/Pricing';
 import Faq from '../components/Faq';
 import Voice from '../components/Voice';
 import Contact from '../components/Contact';
+import Footer from '../components/Footer';
 
 function Home() {
   return (
@@ -27,6 +28,11 @@ function Home() {
       <Faq />
       <Voice />
       <Contact />
+      <div className="homeBottom" style={{ background: "#f4f4f4" }}>
+        <div className="blockContent">
+          <Footer />
+        </div>
+      </div>
     </div>
   )
 }
