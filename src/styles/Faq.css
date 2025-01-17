@@ -54,3 +54,9 @@
         padding-top: 25px;
     }
 }
+
+@media(max-width: 460px) {
+    .faq {
+        border-radius: 15px;
+    }
+}

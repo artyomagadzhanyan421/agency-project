@@ -236,6 +236,10 @@
         background: #323232;
         padding: 16px 35px;
     }
+
+    .contact .link:hover {
+        padding: 16px 35px;
+    }
 }
 
 @media(max-width: 460px) {
@@ -253,5 +257,9 @@
 
     .heading.block {
         font-size: 45px;
+    }
+
+    .video {
+        border-radius: 15px;
     }
 }

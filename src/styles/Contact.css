@@ -97,6 +97,11 @@ textarea:focus {
 @media(max-width: 460px) {
     .contact form {
         padding: 35px 25px;
+        border-radius: 15px;
+    }
+
+    .contactImage {
+        border-radius: 15px;
     }
 
     .contactBlock {

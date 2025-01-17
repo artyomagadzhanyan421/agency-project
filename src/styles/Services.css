@@ -170,6 +170,14 @@
     }
 }
 
+@media(max-width: 460px) {
+
+    .blockFlex,
+    .services {
+        border-radius: 15px;
+    }
+}
+
 @media(max-width: 450px) {
     .serviceFlex {
         flex-direction: column;

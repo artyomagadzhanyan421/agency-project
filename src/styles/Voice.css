@@ -87,5 +87,6 @@
 @media(max-width: 460px) {
     .voice {
         padding: 35px 25px;
+        border-radius: 15px;
     }
 }
