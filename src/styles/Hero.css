@@ -56,8 +56,9 @@
 }
 
 .heading span {
-    background: linear-gradient(to right, rgb(16, 208, 127, 0.25), transparent);
+    background: linear-gradient(to right, rgb(16, 208, 127, 0.40), transparent);
     border-left: 4px solid #10d07f;
+    white-space: nowrap;
     padding: 0px 10px;
 }
 
@@ -181,12 +182,6 @@
     .heading {
         font-size: 50px;
     }
-
-    .heading span {
-        border: none;
-        background: none;
-        padding: initial;
-    }
 }
 
 @media(max-width: 570px) {
@@ -201,11 +196,6 @@
 
     .Hero {
         padding: 100px 30px;
-    }
-
-    .heading {
-        list-style: none;
-        line-height: 1.15;
     }
 }
 
@@ -252,7 +242,8 @@
     }
 
     .heading {
-        font-size: 40px;
+        font-size: 38px;
+        line-height: 1.2em;
     }
 
     .heading.block {

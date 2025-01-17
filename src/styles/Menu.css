@@ -60,7 +60,7 @@ header ul li a:hover span {
     transform: translate(-50%, -250%);
 }
 
-@media(max-width: 400px) {
+@media(max-width: 460px) {
     header {
         border-radius: initial;
         padding: initial;
