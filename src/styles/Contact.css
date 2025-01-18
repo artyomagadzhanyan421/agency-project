@@ -20,6 +20,7 @@ textarea {
     resize: none;
     background: #f4f4f4;
     border: 1px solid #eee;
+    width: 100%;
     padding: 20px 24px;
     border-radius: 16px;
     font-size: 14.5px;
