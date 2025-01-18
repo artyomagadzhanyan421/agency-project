@@ -196,7 +196,8 @@
         align-items: initial;
     }
 
-    .links .link {
+    .Hero .links .link, 
+    .blockFlex .links .link {
         width: 100%;
     }
 
