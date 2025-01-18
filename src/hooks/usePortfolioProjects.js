@@ -22,7 +22,7 @@ export const usePortfolioProjects = () => {
             backgroundColor: "#f1c63c",
             projectDesc: "Developing AIgenius involved creating a sophisticated website for businesses in the AI solutions market. The challenge was to blend sleek, professional design with user-friendly functionality, offer extensive customization to reflect each brand's unique identity, and incorporate intuitive navigation.",
             industry: "Artificial Intelligence",
-            type: "Website Development",
+            type: "Events",
             year: "2024",
             preview: "https://bonanza.framer.website/"
         },
@@ -33,7 +33,7 @@ export const usePortfolioProjects = () => {
             background: "/portfolio/p3-3.png",
             backgroundColor: "#bc77e4",
             projectDesc: "We crafted a compelling videographer portfolio website that emphasizes visual content, making videos the focal point. The design ensures high-quality displays and an intuitive interface to showcase work effectively. Features to convert viewers into clients include seamless video presentations, captivating visuals, detailed descriptions, and clear calls-to-action. This website empowers videographers to stand out, attract dream projects, and reflect their passion and talent.",
-            industry: "Portfolio",
+            industry: "Artificial Intelligence",
             type: "Website Development",
             year: "2024",
             preview: "https://algenius-solutions.framer.website/"
@@ -45,7 +45,7 @@ export const usePortfolioProjects = () => {
             background: "/portfolio/p4-4.png",
             backgroundColor: "#1b1b1b",
             projectDesc: "We developed as a dynamic website tailored for DIGIBI, digital marketing agency. DIGIBI engages users with compelling content and interactive elements, creating an immersive experience that effectively showcases the agency’s services.",
-            industry: "Marketing",
+            industry: "Portfolio",
             type: "Website Development",
             year: "2024",
             preview: "https://andrew-williams.framer.website/"
