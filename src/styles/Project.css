@@ -1,0 +1,45 @@
+.back {
+    color: black;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-weight: 500;
+}
+
+.projectDesc {
+    color: #8b8b8b;
+    max-width: 625px;
+}
+
+.projectData {
+    padding: 65px 0px 80px 0px;
+}
+
+.projectTable {
+    margin-bottom: 45px;
+}
+
+.projectTable div {
+    display: grid;
+    border-bottom: 1px solid #eee;
+    grid-template-columns: 180px 1fr;
+    padding-bottom: 16px;
+    font-weight: 500;
+}
+
+.projectTable div:not(:nth-child(1)) {
+    margin-top: 16px;
+}
+
+@media(max-width: 460px) {
+    .projectTable div {
+        grid-template-columns: 1fr;
+        grid-gap: 3px;
+        font-size: 15px;
+        padding-bottom: 15px;
+    }
+
+    .projectTable div:not(:nth-child(1)) {
+        margin-top: 15px;
+    }
+}

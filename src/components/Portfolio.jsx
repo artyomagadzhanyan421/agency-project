@@ -29,7 +29,7 @@ function Portfolio() {
                 </div>
                 <div className="portfolioGrid">
                     {projects.map(project => (
-                        <Link to="/project" className="project" key={project.id}>
+                        <Link to={`/project/${project.id}`} className="project" key={project.id}>
                             <div className="projectImage">
                                 <img src={project.banner} className='portfolioBanner' alt={`${project.title} banner`} />
                                 <img src={project.background} className='portfolioBg' alt={`${project.title} background`} />

@@ -32,10 +32,6 @@
     background-color: #0047ff;
 }
 
-.portfolioGrid .project:nth-child(6) .projectImage {
-    background-color: #007aff;
-}
-
 .projectImage {
     position: relative;
     overflow: hidden;
@@ -97,6 +93,12 @@
 @media(max-width: 960px) {
     .portfolioGrid {
         grid-template-columns: 1fr;
+    }
+}
+
+@media(max-width: 500px) {
+    .projectImage {
+        padding: 35px 35px 0px 35px;
     }
 }
 

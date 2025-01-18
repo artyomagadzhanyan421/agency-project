@@ -7,16 +7,14 @@ import Project from "./pages/Project";
 
 // Components
 import Navbar from './components/Navbar';
-import Menu from './components/Menu';
 
 function App() {
   return (
     <div className="App">
-      <Menu />
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/project" element={<Project />} />
+        <Route path="/project/:id" element={<Project />} />
       </Routes>
     </div>
   )

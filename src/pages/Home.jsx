@@ -15,6 +15,8 @@ import Contact from '../components/Contact';
 import Footer from '../components/Footer';
 
 function Home() {
+  document.title = `Webiy | Official Website`;
+
   return (
     <div>
       <Menu />

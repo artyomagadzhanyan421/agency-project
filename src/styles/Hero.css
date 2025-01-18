@@ -46,13 +46,17 @@
     font-size: 75px;
     font-weight: 550;
     max-width: 800px;
-    line-height: 1.19em;
-    margin: 35px 0px;
+    line-height: 1.2em;
+    margin: 40px 0px;
 }
 
 .heading.block {
     font-size: 70px;
     line-height: 1.06em;
+}
+
+.heading.projectHead {
+    padding: 45px 0px 25px 0px;
 }
 
 .heading span {
@@ -72,6 +76,7 @@
     color: black;
     background-color: #f4f4f4;
     box-shadow: initial;
+    width: fit-content;
 }
 
 .link {
@@ -83,6 +88,7 @@
     cursor: pointer;
     outline: none;
     border: none;
+    width: fit-content;
     gap: 10px;
     box-shadow: 0 6px 12px rgba(27, 27, 27, .25);
     padding: 20px 35px;
@@ -190,6 +196,10 @@
         align-items: initial;
     }
 
+    .links .link {
+        width: 100%;
+    }
+
     .headingFlex .links .link {
         width: fit-content;
     }
@@ -247,6 +257,10 @@
 
     .heading.block {
         font-size: 45px;
+    }
+
+    .heading.projectHead {
+        padding: 35px 0px 25px 0px;
     }
 
     .video {
