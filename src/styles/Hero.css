@@ -196,7 +196,7 @@
         align-items: initial;
     }
 
-    .Hero .links .link, 
+    .Hero .links .link,
     .blockFlex .links .link {
         width: 100%;
     }
@@ -215,10 +215,6 @@
         margin-top: 25px;
         justify-content: left;
         flex-direction: column;
-    }
-
-    .blockFlex .link {
-        width: 100%;
     }
 }
 
