@@ -29,7 +29,7 @@ function Slideshow() {
                     <p style={blue}>Efficient</p>
                     <p style={purple}>Versatile</p>
                     <p>Innovative</p>
-                    <p>Creative</p>
+                    <p style={blue}>Creative</p>
                 </div>
             </div>
             <div className="slideContainer secContainer">
@@ -45,7 +45,7 @@ function Slideshow() {
                     <p style={blue}>Expert</p>
                     <p style={purple}>Next-Gen</p>
                     <p>Responsive</p>
-                    <p>Strategic</p>
+                    <p style={blue}>Strategic</p>
                 </div>
             </div>
         </div>
