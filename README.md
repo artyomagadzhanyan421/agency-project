@@ -1,5 +1,3 @@
-![Project Logo](./public/cover.png)
-
 ## Agency Multi-Page Website
 
 * React Router for navigation between pages
