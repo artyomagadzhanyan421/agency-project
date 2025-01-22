@@ -7,13 +7,6 @@ import "../styles/Contact.css";
 import "boxicons";
 
 function Contact() {
-    let spanStyle = {
-        border: "none",
-        background: "none",
-        color: "#8b8b8b",
-        padding: 0,
-    };
-
     return (
         <div className='Block' id='contact' style={{ background: "#f4f4f4" }}>
             <div className="blockContent">
