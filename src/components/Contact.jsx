@@ -19,7 +19,7 @@ function Contact() {
             <div className="blockContent">
                 <div className="headingFlex">
                     <p className="heading block">
-                        Become <span style={spanStyle}>Connected</span>
+                        Become <span>Connected</span>
                     </p>
                     <p className='headingDesc'>We're here to answer your questions and discuss how we can help you achieve your goals.</p>
                 </div>

@@ -15,7 +15,7 @@ function Pricing() {
             <div className="blockContent">
                 <div className="headingFlex">
                     <p className="heading block">
-                        Flexible <span style={{ border: "none", background: "none", color: "#8b8b8b", padding: 0 }}>Pricing Plans</span>
+                        Flexible <span>Pricing Plans</span>
                     </p>
                     <p className="headingDesc">
                         Discover our flexible pricing plans designed to fit your budget, providing clear and competitive rates for all our services.

@@ -9,17 +9,10 @@ import useServices from "../hooks/useServices";
 function Services() {
   const { services } = useServices();
 
-  let spanStyle = {
-    border: "none",
-    background: "none",
-    color: "#8b8b8b",
-    padding: 0,
-  };
-
   return (
     <div className="Block" id='services'>
       <div className="blockContent">
-        <p className="heading block">Modern Excellence, <span style={spanStyle}>Delivered</span></p>
+        <p className="heading block" id='noBefore'>Digital Excellence, <span>Delivered</span></p>
         <div className="services">
           <div className="serviceFlex">
             <p>Our Services</p>

@@ -5,13 +5,6 @@ import useFeedbacks from "../hooks/useFeedbacks";
 import "../styles/Voice.css";
 
 function Voice() {
-    let spanStyle = {
-        border: "none",
-        background: "none",
-        color: "#8b8b8b",
-        padding: 0,
-    };
-
     const { feedbacks } = useFeedbacks();
 
     return (
@@ -19,7 +12,7 @@ function Voice() {
             <div className="blockContent">
                 <div className="headingFlex">
                     <p className="heading block">
-                        <span style={spanStyle}>Voices from</span> Our Clients
+                        <span>Voices from</span> Our Clients
                     </p>
                     <div className="links">
                         <a href="#contact" className="link" rel="noopener noreferrer">

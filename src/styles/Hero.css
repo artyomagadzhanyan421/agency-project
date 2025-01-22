@@ -44,15 +44,14 @@
 
 .heading {
     font-size: 75px;
-    font-weight: 550;
+    font-weight: 500;
     max-width: 800px;
-    line-height: 1.2em;
+    line-height: 1.18em;
     margin: 40px 0px;
 }
 
 .heading.block {
     font-size: 70px;
-    line-height: 1.06em;
 }
 
 .heading.projectHead {
@@ -60,10 +59,23 @@
 }
 
 .heading span {
+    white-space: nowrap;
+    position: relative;
+    padding: 0px 10px;
+    z-index: 1;
+}
+
+.heading span::before {
+    content: "";
+    position: absolute;
     background: linear-gradient(to right, rgb(16, 208, 127, 0.40), transparent);
     border-left: 4px solid #10d07f;
-    white-space: nowrap;
-    padding: 0px 10px;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    z-index: -1;
+    height: 86%;
 }
 
 .blockContent .heading {
@@ -158,20 +170,14 @@
     }
 }
 
-@media(max-width: 1000px) {
-    .heading.block {
-        font-size: 60px;
-    }
-}
-
 @media(max-width: 860px) {
-    .heading {
+    .heading, .heading.block {
         font-size: 65px;
     }
 }
 
 @media(max-width: 790px) {
-    .heading {
+    .heading, .heading.block {
         font-size: 55px;
     }
 
@@ -181,12 +187,7 @@
 }
 
 @media(max-width: 650px) {
-    .heading.block {
-        font-size: 50px;
-        line-height: 1.1em;
-    }
-
-    .heading {
+    .heading, .heading.block {
         font-size: 50px;
     }
 }
@@ -248,13 +249,8 @@
         margin-top: 25px;
     }
 
-    .heading {
+    .heading, .heading.block {
         font-size: 38px;
-        line-height: 1.2em;
-    }
-
-    .heading.block {
-        font-size: 45px;
     }
 
     .heading.projectHead {

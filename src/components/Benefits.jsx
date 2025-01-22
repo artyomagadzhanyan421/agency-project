@@ -10,13 +10,6 @@ import "boxicons";
 function Benefits() {
   const { benefits } = useBenefits();
 
-  let spanStyle = {
-    border: "none",
-    background: "none",
-    color: "#8b8b8b",
-    padding: 0,
-  };
-
   let weight = {
     fontWeight: 500,
   };
@@ -47,7 +40,7 @@ function Benefits() {
       <div className="blockContent">
         <div className="headingFlex">
           <p className="heading block">
-            <span style={spanStyle}>Benefits that</span> Drive Success
+            <span>Benefits that</span> Drive Success
           </p>
           <div className="links">
             <a href="https://calendly.com/" target="_blank" className="link" rel="noopener noreferrer">

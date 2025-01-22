@@ -11,19 +11,12 @@ import "boxicons";
 function Portfolio() {
     const projects = usePortfolioProjects();
 
-    let spanStyle = {
-        border: "none",
-        background: "none",
-        color: "#8b8b8b",
-        padding: 0,
-    };
-
     return (
         <div className='Block' id='works'>
             <div className="blockContent">
                 <div className="headingFlex">
                     <p className="heading block">
-                        Showcase <span style={spanStyle}>of Excellence</span>
+                        Showcase <span>of Excellence</span>
                     </p>
                     <p className='headingDesc'>Explore our portfolio of innovative digital solutions, showcasing our creativity and expertise in delivering exceptional results.</p>
                 </div>

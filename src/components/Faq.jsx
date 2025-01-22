@@ -16,7 +16,7 @@ function Faq() {
         <div className='Block'>
             <div className="blockContent">
                 <p className="heading block">
-                    Common <span style={{ border: "none", background: "none", color: "#8b8b8b", padding: 0 }}>Questions</span>
+                    Common <span>Questions</span>
                 </p>
                 <div className="faqs">
                     {faqs.map((faq, index) => (

@@ -41,7 +41,7 @@
     animation: slide 10s linear infinite;
     gap: 24px;
     font-size: 70px;
-    font-weight: 550;
+    font-weight: 500;
 }
 
 .slideFlex p {
